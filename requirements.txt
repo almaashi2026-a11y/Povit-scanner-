@@ -1,0 +1,6 @@
+finnhub-python
+python-telegram-bot
+requests
+numpy
+pandas
+
