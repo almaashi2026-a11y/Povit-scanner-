@@ -1,10 +1,9 @@
-# ضع التوكن والمفاتيح هنا مباشرة
-FINNHUB_API_KEY = "d934frpr01qpou39gg00d934frpr01qpou39gg0g"
-TELEGRAM_BOT_TOKEN = "8895817474:AAHxy3y7WfwNSFfYUY9qPNZmo4xCvlURB8o"
-TELEGRAM_CHAT_ID = "8895817474"
-
-# إعدادات الماسح
+import os
+FINNHUB_API_KEY = os.getenv("d934frpr01qpou39gg00d934frpr01qpou39gg0g", "")
+TELEGRAM_BOT_TOKEN = os.getenv("8895817474:AAHxy3y7WfwNSFfYUY9qPNZmo4xCvlURB8o", "")
+TELEGRAM_CHAT_ID = os.getenv("8895817474", "")
 MIN_VOLUME = 50000
 MIN_PRICE = 0.20
 MAX_PRICE = 10.00
+PIVOT_RANGE = 0.015
 MIN_DOLLAR_VOLUME = 100000
